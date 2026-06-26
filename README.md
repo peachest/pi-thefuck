@@ -62,7 +62,7 @@ assistant: Oops, that's a directory. Let me list it instead.
 |---------|-------------|
 | **Unobtrusive** | Session file is never modified — only filtered from LLM context |
 | **Batch-scoped** | Only cancels failures in the most recent assistant response — won't reach across turns |
-| **One at a time** | Multiple `/fuck` for consecutive failures, like thefuck |
+| **One at a time** | Multiple failures need multiple `/fuck`, one per call — like thefuck |
 | **Idempotent** | Re-fucking the same call is a no-op |
 | **Sibling-safe** | Parallel tool calls that succeeded are preserved |
 | **Conflict-free** | Uses double-tap `f` — doesn't interfere with built-in shortcuts |
