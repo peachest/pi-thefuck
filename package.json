@@ -1,0 +1,15 @@
+{
+  "name": "pi-thefuck",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@earendil-works/pi-coding-agent": "^0.79.4",
+    "@earendil-works/pi-tui": "^0.79.4",
+    "@earendil-works/pi-ai": "^0.79.4",
+    "typebox": "^0.34.0"
+  },
+  "pi": {
+    "extensions": ["./index.ts"]
+  }
+}
