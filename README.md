@@ -88,6 +88,11 @@ Both extensions work together without conflict:
 | What it does | Makes the agent continue | Undoes a failed tool call |
 | When to use | Agent is stuck | Agent made an error |
 
+## Acknowledgments
+
+- [thefuck](https://github.com/nvbn/thefuck) — the original command-correction tool that inspired this project
+- [pi-bump](https://github.com/alexleekt/pi-bump) — `ctx.ui.onTerminalInput()` double-tap pattern reused here for the `f` shortcut
+
 ## License
 
 MIT
